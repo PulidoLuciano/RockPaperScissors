@@ -14,8 +14,24 @@ function playRound(playerSelection, computerSelection){
     else return !(playerSelection == "SCISSORS" && computerSelection == "PAPER") ? "Computer WINS" : "Player WINS";
 }
 
-let com = getComputerChoice();
-let pla = "Scissors";
+function game(){
+    let computerScore = 0;
+    let playerScore = 0;
+    
+    while(computerScore < 3 && playerScore < 3){
+        let computerSelection = getComputerChoice()
+        let roundResult = playRound(prompt("Write the option you want"), computerSelection)
+        
+        if(roundResult == "Player WINS") playerScore++;
+        else if(roundResult == "Computer WINS") computerScore++;
 
-console.log(com);
-console.log(playRound(pla, com));
+        console.log(computerSelection);
+        console.log(roundResult);
+        console.log(`--Scores--\nComputer: ${computerScore}\nPlayer: ${playerScore}`);
+    }
+
+    if(playerScore == 3) return "Player won the bo5"
+    else return "Computer won the bo5"
+}
+
+game();
