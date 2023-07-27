@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.notVisible{
+    display: none;
+}
+
 h1{
     font-size: 48px;
     text-align: center;
@@ -41,6 +45,25 @@ h1{
     font-size: 36px;
 }
 
+#winMessageContainer{
+    margin: 100px;
+    text-align: center;
+}
+
+#winMessage{
+    color: #FF0000;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#playAgainButton{
+    background-color: #FF0000;
+    border: 5px solid #AA0000;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 36px;
+}
 
 
 
