@@ -1,2 +1,2 @@
 # RockPaperScissors
-A rock, paper and scissors game in which you can play against the computer. All on the web!
+A web Rock, Paper, Scissors against the computer. Beat the computer on a best of five match.
