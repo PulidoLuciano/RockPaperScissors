@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    margin: 30px;
+}
+
+#optionsContainer{
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.option{
+    height: 350px;
+    width: 350px;
+    background-color: #0088FF;
+    border-radius: 20px;
+    border: 3px solid #0033FF;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+#roundElectionsContainer{
+    justify-content: space-around;
+}
+
+#scoreContainer{
+    justify-content: center;
+    gap: 500px;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+
+
+

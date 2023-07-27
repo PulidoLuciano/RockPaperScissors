@@ -33,5 +33,3 @@ function game(){
     if(playerScore == 3) return "Player won the bo5"
     else return "Computer won the bo5"
 }
-
-game();
